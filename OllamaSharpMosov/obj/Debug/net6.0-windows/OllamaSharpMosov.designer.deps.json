@@ -1,0 +1,125 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI.Abstractions/9.1.0-preview.1.25064.3": {
+        "dependencies": {
+          "System.Text.Json": "8.0.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "assemblyVersion": "9.1.0.0",
+            "fileVersion": "9.100.25.6403"
+          }
+        }
+      },
+      "OllamaSharp/5.0.6": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.0",
+          "Microsoft.Extensions.AI.Abstractions": "9.1.0-preview.1.25064.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/OllamaSharp.dll": {
+            "assemblyVersion": "5.0.6.0",
+            "fileVersion": "5.0.6.0"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/8.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
+            "rid": "browser",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Text.Json/8.0.5": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-owmu2Cr3IQ8yQiBleBHlGk8dSQ12oaF2e7TpzwJKEl4m84kkZJjEY1n33L67Y3zM5jPOjmmbdHjbfiL0RqcMRQ==",
+      "path": "microsoft.bcl.asyncinterfaces/9.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.AI.Abstractions/9.1.0-preview.1.25064.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qxGgo8ipnJz9viMQBMrnmYymi9cZWV0kep/wNTHgLhieYBCVvkMnOskaoNzRjCMl9hwEkXnZTQIwYk2WbpmmWA==",
+      "path": "microsoft.extensions.ai.abstractions/9.1.0-preview.1.25064.3",
+      "hashPath": "microsoft.extensions.ai.abstractions.9.1.0-preview.1.25064.3.nupkg.sha512"
+    },
+    "OllamaSharp/5.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qkXGPJBN+PYUWph9qA9F1nlRlyJ9nczXmG6A/cgAbV+vuoGEovZLg/LoOZ4SnWKJWzM0y+lT93qDS7TNKQhMuw==",
+      "path": "ollamasharp/5.0.6",
+      "hashPath": "ollamasharp.5.0.6.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
+      "path": "system.text.encodings.web/8.0.0",
+      "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+      "path": "system.text.json/8.0.5",
+      "hashPath": "system.text.json.8.0.5.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "C1gBEByycHE=",
+  "success": true,
+  "projectFilePath": "C:\\да\\Программы\\C#\\OllamaSharpMosov\\OllamaSharpMosov\\OllamaSharpMosov.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Егор\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
+    "C:\\Users\\Егор\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.1.0-preview.1.25064.3\\microsoft.extensions.ai.abstractions.9.1.0-preview.1.25064.3.nupkg.sha512",
+    "C:\\Users\\Егор\\.nuget\\packages\\ollamasharp\\5.0.6\\ollamasharp.5.0.6.nupkg.sha512",
+    "C:\\Users\\Егор\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Егор\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Егор\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
